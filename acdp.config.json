@@ -1,0 +1,32 @@
+{
+  "receiver": {
+    "version": "Node.js ACDP receiver ALPHA 0.0.1"
+  },
+  "protocols": {
+    "unicast": {
+      "unicastReceiverMode": {
+        "enabled": true,
+        "config": {
+          "dstProto": "http",
+          "dstPort": "42000",
+          "dstPath": "/"
+        }
+      }
+    },
+    "multicast": {
+      "multicastReceiverMode": {
+        "enabled": true,
+        "config": {
+          "ttl": 128
+        }
+      }
+    },
+    "global": {
+      "timing": {
+        "maxDelayMs": 86400000
+      }
+    }
+  },
+  "encryption": {
+  }
+}

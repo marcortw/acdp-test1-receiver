@@ -1,0 +1,18 @@
+{
+  "name": "acdp-test1-receiver",
+  "version": "1.0.0",
+  "description": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M. Schnüriger",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "deasync": "^0.1.4",
+    "pfsense-fwcontrol": "git+https://github.com/marcortw/pfsense-fwcontrol.git",
+    "range_check": "^1.2.0",
+    "receiver-nodejs": "git+https://github.com/marcortw/receiver-nodejs.git"
+  }
+}
